@@ -5,16 +5,15 @@
 # Description of your Model (or an Entity Relationship Diagram if you know how to make one)
   - Entities
   - Book
-
-  - Attributes:
-id (Primary Key): Unique identifier for each book.
-title: The title of the book.
-author: The author of the book.
-rating: Average rating of the book (e.g., 1 to 5 stars).
-in_stock: Boolean value indicating whether the book is currently available.
-Relationships:
-One Book can have multiple Reviews.
-Review
+   Attributes:
+   * id (Primary Key): Unique identifier for each book.
+   * title: The title of the book.
+   * author: The author of the book.
+   * rating: Average rating of the book (e.g., 1 to 5 stars).
+   * in_stock: Boolean value indicating whether the book is currently available.
+   # Relationships: One Book can have multiple Reviews.
+   
+   Review
 
 Attributes:
 id (Primary Key): Unique identifier for each review.
